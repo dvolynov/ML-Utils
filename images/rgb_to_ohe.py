@@ -18,7 +18,6 @@ def index2color(index2):
         color = [255, 0, 0]
     return color
 
-
 def rgb_to_ohe(y, num_classes): 
     y2 = y.copy()
     y = y.reshape(y.shape[0] * y.shape[1], 3)
