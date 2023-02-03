@@ -4,7 +4,7 @@
 ## Как импортировать в Google Colab
 
     !rm -rf 'ml'   
-    !git clone https://github.com/Ardisat/ml.git   
+    !git clone -q https://github.com/Ardisat/ml.git   
     from ml.general import split_sample   
 
 
