@@ -1,3 +1,3 @@
-from .check_batch import check_batch
-from .shuffle_samples import shuffle_samples
-from .split_sample import split_sample
+from general.check_batch import check_batch
+from general.shuffle_samples import shuffle_samples
+from general.split_sample import split_sample

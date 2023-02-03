@@ -1,2 +1,2 @@
-from .rgb_to_ohe import rgb_to_ohe
-from .smart_trimming import smart_trimming
+from images.rgb_to_ohe import rgb_to_ohe
+from images.smart_trimming import smart_trimming
