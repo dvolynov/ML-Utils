@@ -1,5 +1,13 @@
 # Пакет из модулей для построения нейросетей (картинки, аудио)   
 
+
+## Как импортировать в Google Colab
+
+!rm -rf 'ml'
+!git clone https://github.com/Ardisat/ml.git
+from ml.general import split_sample
+
+
 ## images
 
     check_batch(sample, names=('x', 'y'))   
