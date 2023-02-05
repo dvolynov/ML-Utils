@@ -1,6 +1,6 @@
 import math
 
-class Bar:
+class ProgressBar:
     length = 30
     completed_sign = '='
     head_sign = '>'
