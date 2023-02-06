@@ -11,7 +11,7 @@
 
 ## Networks
 
-`unet(input_shape, num_classes)` - полносвязная свёрточная сеть   
+`unet(input_shape, num_classes)` - U-Net: полносвязная свёрточная сеть   
 
 
 
