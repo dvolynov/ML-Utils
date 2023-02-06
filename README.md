@@ -30,7 +30,14 @@
 
 ## Video
 
-#### Работа с видео в Google Colab
+#### Считывание потока с камеры в Google Colab
 `video_frame(label, bbox)`   
 `js_to_image(js_reply)`   
 `video_stream()`   
+    video_stream()
+
+        while True:
+            js_reply = video_frame('Capturing...', '')
+            if not js_reply: break
+
+            img = js_to_image(js_reply["img"])
