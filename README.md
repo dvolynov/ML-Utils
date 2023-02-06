@@ -36,8 +36,8 @@
 `video_stream()`   
     video_stream()
 
-        while True:
-            js_reply = video_frame('Capturing...', '')
-            if not js_reply: break
+    while True:
+        js_reply = video_frame('Capturing...', '')
+        if not js_reply: break
 
-            img = js_to_image(js_reply["img"])
+        img = js_to_image(js_reply["img"])
