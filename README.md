@@ -1,4 +1,4 @@
-# Модули для построения нейросетей на Python 
+# Модули Python для Machine Learning
 
 
 ## Как импортировать в Google Colab
