@@ -10,15 +10,14 @@
 
 ## General
 
-`Bar(iterations)`   
-`check_batch(sample, names=('x', 'y'))`   
-`shuffle_samples(x, y)`   
-`split_sample(x, y, train=0.7, val=0.2, test=0.1)`   
+`Bar(iterations)` - прогрессбар для любого цикла   
+`check_batch(sample, names=('x', 'y'))` - вывод графика с информацией о батчах из DataGenerator   
+`shuffle_samples(x, y)` - перемешивание двух массивов одинаково    
+`split_sample(x, y, train=0.7, val=0.2, test=0.1)` - разделение выборки на обучающюю, проверочную и тестовую   
 
 
 ## Images
 
-`check_batch(sample, names=('x', 'y'))` - вывод графика с информацией о батчах из DataGenerator   
 `rgb_to_ohe(y, num_classes)` - перевод numpy картинки в one hot encoding   
 `smart_trimming(img, size=(100, 100))` - умная обрезка картинки (с сохранением центра)   
 

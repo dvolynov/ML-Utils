@@ -1,6 +1,4 @@
-import numpy as np
+from sklearn.utils import shuffle as sklearn_shuffle
 
-
-def shuffle_samples(x, y):
-    permutation = np.random.permutation(len(x))
-    return x[permutation], y[permutation]
+def shuffle(x, y):
+    return sklearn_shuffle(x, y)
