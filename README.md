@@ -34,6 +34,8 @@
 ## Audio
 
 `get_features(x, sr)` - получение признаков аудио   
+`get_info(track)` - информация о треке   
+`text_from_wav(path, language="ru-RU")` - извлечение текста из трека через speech_recognition   
    
 
 
