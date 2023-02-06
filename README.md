@@ -34,6 +34,7 @@
 `video_frame(label, bbox)`   
 `js_to_image(js_reply)`   
 `video_stream()`   
+
     video_stream()
 
     while True:
