@@ -8,26 +8,26 @@
     from ml.general import split_sample   
 
 
-## general
+## General
 
     Bar(iterations)
     check_batch(sample, names=('x', 'y'))   
     shuffle_samples(x, y)   
     split_sample(x, y, train=0.7, val=0.2, test=0.1)   
 
-## images
+## Images
 
     check_batch(sample, names=('x', 'y'))   
     rgb_to_ohe(y, num_classes)   
     smart_trimming(img, size=(100, 100))   
 
-## audio
+## Audio
 
     get_features(x, sr)
 
-## video
+## Video
 
-### Работа с видео в Google Colab
+#### Работа с видео в Google Colab
     video_frame(label, bbox)
     js_to_image(js_reply)
     video_stream()
