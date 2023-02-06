@@ -8,13 +8,21 @@
     from ml.general import split_sample   
 
 
+
+## Networks
+
+`unet(input_shape, num_classes)` - полносвязная свёрточная сеть   
+
+
+
 ## General
 
 `Bar(iterations)` - прогрессбар для любого цикла   
 `check_batch(sample, names=('x', 'y'))` - вывод графика с информацией о батчах из DataGenerator   
 `shuffle_samples(x, y)` - перемешивание двух массивов одинаково    
 `split_sample(x, y, train=0.7, val=0.2, test=0.1)` - разделение выборки на обучающюю, проверочную и тестовую   
-   
+
+
 
 ## Images
 
@@ -22,10 +30,12 @@
 `smart_trimming(img, size=(100, 100))` - умная обрезка картинки (с сохранением центра)   
    
 
+
 ## Audio
 
 `get_features(x, sr)` - получение признаков аудио   
    
+
 
 ## Video
 
