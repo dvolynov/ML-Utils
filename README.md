@@ -30,7 +30,7 @@
 
 ## Video
 
-#### Считывание потока с камеры в Google Colab
+#### Считывание потока покадрово с камеры в Google Colab
 `video_stream()` - захват видео потока   
 `video_frame(label, bbox)` - захват кадра из потока   
 `js_to_image(js_reply)` - конвертация js картинки в python   
