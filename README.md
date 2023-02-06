@@ -24,3 +24,10 @@
 ## audio
 
     get_features(x, sr)
+
+## video
+
+### Работа с видео в Google Colab
+    video_frame(label, bbox)
+    js_to_image(js_reply)
+    video_stream()
