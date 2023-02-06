@@ -23,7 +23,7 @@
 
 ## Audio
 
-    `get_features(x, sr)`
+ `get_features(x, sr)`
 
 ## Video
 
