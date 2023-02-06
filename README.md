@@ -10,7 +10,7 @@
 
 ## General
 
-`Bar(iterations)`
+`Bar(iterations)`   
 `check_batch(sample, names=('x', 'y'))`   
 `shuffle_samples(x, y)`   
 `split_sample(x, y, train=0.7, val=0.2, test=0.1)`   
