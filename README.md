@@ -18,14 +18,14 @@
 
 ## Images
 
-`check_batch(sample, names=('x', 'y'))`   
-`rgb_to_ohe(y, num_classes)`   
-`smart_trimming(img, size=(100, 100))`   
+`check_batch(sample, names=('x', 'y'))` - вывод графика с информацией о батчах из DataGenerator   
+`rgb_to_ohe(y, num_classes)` - перевод numpy картинки в one hot encoding   
+`smart_trimming(img, size=(100, 100))` - умная обрезка картинки (с сохранением центра)   
 
 
 ## Audio
 
-`get_features(x, sr)`   
+`get_features(x, sr)` - получение признаков аудио   
 
 
 ## Video
