@@ -1,7 +1,7 @@
 from PIL import Image
 
 
-def smart_trimming(img, target_size):
+def smart_crop(img, target_size):
     if img.width < target_size[0]:
         new_height = int(target_size[0] * img.height / img.width)
         img = img.resize((target_size[0], new_height), Image.ANTIALIAS)
