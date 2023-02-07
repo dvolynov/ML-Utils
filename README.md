@@ -27,7 +27,7 @@
 ## Images
 
 `rgb_to_ohe(y, num_classes)` - перевод numpy картинки в one hot encoding   
-`smart_trimming(img, size=(100, 100))` - умная обрезка картинки (с сохранением центра)   
+`smart_crop(img, targrt_size)` - умная обрезка/увеличение картинки (с сохранением центра)   
    
 
 
