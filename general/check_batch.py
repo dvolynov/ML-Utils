@@ -26,7 +26,7 @@ def check_batch(sample, names=('x', 'y')):
         length = sum(check.values())
 
         axs[i].pie(data, labels=labels, colors = colors, autopct='', radius=radius)
-        axs[i].legend(values, title="Батчи", loc="center")
+        axs[i].legend(values, title="Batches", loc="center")
 
         circle = mpatches.Circle((0, 0), radius=radius*0.8, color='white')
         axs[i].add_patch(circle)
