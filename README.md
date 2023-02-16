@@ -28,6 +28,7 @@
 
 `rgb_to_ohe(y, num_classes)` - перевод numpy картинки в one hot encoding   
 `smart_crop(img, targrt_size)` - умная обрезка/увеличение картинки (с сохранением центра)   
+`collage(images, labels=None, figsize=None, colsrows=None)` - создание коллажа из картинок     
    
 
 
