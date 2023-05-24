@@ -1,10 +1,12 @@
 # Модули Python для Machine Learning
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 
 #### Как импортировать в Google Colab
 
     !rm -rf 'ml'   
-    !git clone -q https://github.com/Ardisat/ml.git   
+    !git clone -q https://github.com/dvolynov/ML-Utils.git   
     from ml.general import split_sample   
 
 
